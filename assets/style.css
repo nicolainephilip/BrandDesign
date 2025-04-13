@@ -1,0 +1,195 @@
+.bg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0, 0.5);
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    width: 80px; 
+    height: auto;
+}
+.overlaybtn {
+
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    background-color: #d8e35f !important;
+    color: black !important;
+
+}
+
+.overlaybtn:hover {
+    background-color: #d99b27 !important; 
+    color: white;
+  }
+.backbtn {
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    background-color:  #4f2f44 !important;
+    color: black !important;
+}
+.backbtn:hover {
+    background-color: #ff85c1 !important; 
+  }
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-nav {
+    color: aliceblue;
+}
+.pgtext {
+
+    top: 80%;
+    left: 50%;
+    margin-top: 200px;
+ 
+    text-align: center; 
+    color: white;
+}
+
+.pgtext h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.pgtext p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.btn {
+background-color: rgb(166, 125, 75);
+color: rgb(240, 240, 240);
+
+}
+
+#purchasebtn{
+    background-color: #613953; /* example pink color */
+    color: white;
+    padding: 20px 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 12px;
+
+}
+#purchasebtn:hover {
+    background-color: #ff85c1; /* lighter pink on hover */
+    color: white;
+  }
+.cookie-regular {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.oxygen-regular {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+.petit-formal-script-regular {
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  
+#bg {
+
+    height: 100vh;
+    background-image: url(../photos/bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.navbar-brand {
+
+    color: white;
+    font-size: 35px;
+
+}
+.footer {
+    background-color: #613953; 
+    color: white;
+    padding: 20px 0;
+    min-height: 300px;
+}
+
+#divForDMme {
+
+    min-height: 300px;
+    font-size: 50px; 
+    text-align: center;
+
+} 
+
+/* Image Carousel */
+
+.custom-carousel {
+    max-height: 500px; /* or any height you want */
+    overflow: hidden;
+}
+  
+.custom-carousel .carousel-item img {
+    max-width: 60%;      /* or any size you want */
+    max-height: 500px;   /* optional: control height */
+    margin: 0 auto;      /* centers the image horizontally */
+    display: block;      /* required for margin auto to work */
+    object-fit: contain; /* ensures image scales nicely */
+  }
+  
+  
+
+@media (max-width: 991px) {
+
+    .navbar-brand {
+
+        color: white;
+        font-size: 25px;
+    
+    }
+    #divForDMme {
+
+        font-size: 30px;
+    }
+    
+    
+}
